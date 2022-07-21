@@ -28,7 +28,7 @@ h4{
 
 .hero-banner{
     background-color: #007fff;
-    height: 100vh;
+    min-height: 100vh;
     padding: 50px 20px;
     box-sizing: border-box;
     position: relative;
@@ -52,16 +52,17 @@ h4{
 }
 
 .character1{
+    background: url(img/character1.png) no-repeat 0 0;
+    background-size: contain;
     width: 363px;
     height: 344px;
-    position: absolute; top: 117px; right: 89px;
-    background-size: 100%;
-    background: url(img/character1.png) no-repeat 0 0;
+    position: absolute; top: 117px; right: 10%;
+    transform: rotate(15deg);
 }
 
 .character2{
     background: url(img/character2.png) no-repeat 0 0;
-    background-size: 100%;
+    background-size: contain;
     width: 309px;
     height: 371px;
     position: absolute; top: 213px; right: 277px;
@@ -69,7 +70,7 @@ h4{
 
 .character3{
     background: url(img/character3.png) no-repeat 0 0;
-    background-size: 100%;
+    background-size: contain;
     width: 297px;
     height: 286px;
     position: absolute; bottom: 74px; right: 109px;
